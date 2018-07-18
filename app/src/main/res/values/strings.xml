@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Simple ToDoList</string>
+    <string name="app_name">彩色便條紙</string>
+    <string name="action_add">新增</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_back">返回</string>
+    <string name="noMemos">還沒建立便條紙哦！</string>
+    <string name="tvDate">2018-1-1</string>
+    <string name="tvMemo">便條紙內容</string>
+    <string name="tvColorname">顏色名稱</string>
+    <string name="ColorTicket">ColorTicket</string>
+
+
+    <string-array name="rainbow_names">
+        <item>bright pink</item>
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>chartreuse</item>
+        <item>green</item>
+        <item>spring green</item>
+        <item>cyan</item>
+        <item>azure</item>
+        <item>blue</item>
+        <item>violet</item>
+        <item>magenta</item>
+    </string-array>
 </resources>
