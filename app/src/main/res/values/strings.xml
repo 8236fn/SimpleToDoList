@@ -8,7 +8,12 @@
     <string name="tvMemo">便條紙內容</string>
     <string name="tvColorname">顏色名稱</string>
     <string name="ColorTicket">ColorTicket</string>
-    <string name="txHint"></string>
+    <string name="txHint">從這裡輸入內容</string>
+    <string name="tvEdit">編輯內容</string>
+    <string name="tvInsert">新增內容</string>
+    <string name="btnEdit">確認修改</string>
+    <string name="btnAdd">確認新增</string>
+    <string name="colorpicker">選擇顏色</string>
 
 
     <string-array name="rainbow_names">
