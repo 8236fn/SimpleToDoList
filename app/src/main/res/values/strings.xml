@@ -8,6 +8,7 @@
     <string name="tvMemo">便條紙內容</string>
     <string name="tvColorname">顏色名稱</string>
     <string name="ColorTicket">ColorTicket</string>
+    <string name="txHint"></string>
 
 
     <string-array name="rainbow_names">
