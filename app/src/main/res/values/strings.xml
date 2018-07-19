@@ -11,8 +11,8 @@
     <string name="txHint">從這裡輸入內容</string>
     <string name="tvEdit">編輯內容</string>
     <string name="tvInsert">新增內容</string>
-    <string name="btnEdit">確認修改</string>
-    <string name="btnAdd">確認新增</string>
+    <string name="btnOk">確認</string>
+    <string name="btnBack">取消</string>
     <string name="colorpicker">選擇顏色</string>
 
 

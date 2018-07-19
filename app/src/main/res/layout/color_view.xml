@@ -16,7 +16,7 @@
         android:contentDescription="@string/ColorTicket" />
 
     <TextView
-        android:id="@+id/tvColorname"
+        android:id="@+id/colorName"
         android:layout_width="150dp"
         android:layout_height="30dp"
         android:gravity="center_vertical"
