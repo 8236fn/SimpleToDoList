@@ -124,13 +124,13 @@ public class EditActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
         }
     }
-    //
+    //產生menuitem
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         if(bundle.getString("type").equals("edit")){
             menuInflater.inflate(R.menu.edit_menu,menu);
-        }產生menuitem
+        }
         return super.onCreateOptionsMenu(menu);
     }
     //產生menuitem的刪除功能
