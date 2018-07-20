@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    //產生menuitem
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.add_menu,menu);
         return super.onCreateOptionsMenu(menu);
     }
-
+    //產生menuitem的新增功能
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){

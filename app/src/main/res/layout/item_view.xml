@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvDate"
-        android:textColor="@color/secondary_text" />
+        android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/tvMemo"
@@ -21,7 +21,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:text="@string/tvMemo"
-        android:textColor="@color/primary_text"
+        android:textColor="@android:color/black"
         android:textSize="18sp" />
 
 </LinearLayout>

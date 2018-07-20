@@ -45,7 +45,7 @@ public class EditActivity extends AppCompatActivity implements View.OnClickListe
         initView();
         dbAdapter = new DbAdapter(this);
         bundle = this.getIntent().getExtras();
-        if (bundle.getString("type").equals("add")){
+        if (bundle.getString("type").equals("edit")){
             tvTitle.setText("編輯內容");
             index = bundle.getInt("itemId");
             Cursor cursor = dbAdapter.queryById(index);
@@ -53,6 +53,7 @@ public class EditActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
     private void initView(){
+        tvTitle = findViewById(R.id.tvTitle);
         editMemo = findViewById(R.id.editMemo);
         editMemo.setOnClickListener(this);
         btnOk = findViewById(R.id.btnOk);
@@ -123,14 +124,16 @@ public class EditActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
         }
     }
+    //
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        if(bundle.getString("type").equals("add")){
+        if(bundle.getString("type").equals("edit")){
             menuInflater.inflate(R.menu.edit_menu,menu);
-        }
+        }產生menuitem
         return super.onCreateOptionsMenu(menu);
     }
+    //產生menuitem的刪除功能
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){

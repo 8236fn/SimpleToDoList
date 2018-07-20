@@ -34,7 +34,7 @@ public class SpinnerAdapter extends BaseAdapter{
 
     @Override
     public long getItemId(int position) {
-        return colorList.indexOf(getItemId(position));
+        return colorList.indexOf(getItem(position));
     }
 
     @Override
